@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Diccionario de Datos REDCap</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        input {
+            width: 300px;
+            padding: 8px;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 6px;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        th {
+            background-color: #f0f0f0;
+        }
+
+        tr:hover {
+            background-color: #fafafa;
+        }
+    </style>
+</head>
+<body>
+    <h1>Diccionario de Datos del Sensores de Glucosa</h1>
+
+    <input type="text" id="buscador" placeholder="Buscar variable, etiqueta o formulario...">
+
+    <table id="tablaDiccionario">
+        <thead>
+            <tr>
+                <th>Variable</th>
+                <th>Formulario</th>
+                <th>Tipo</th>
+                <th>Etiqueta</th>
+                <th>Opciones / Cálculos</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script src="diccionario.js"></script>
+</body>
+</html>
