@@ -1,5 +1,5 @@
 // Cargar JSON
-fetch("diccionario.json")
+fetch("web/diccionario.json")
     .then(response => response.json())
     .then(data => mostrarDiccionario(data));
 
