@@ -48,19 +48,19 @@ cp .env.example .env
 
 2. Completar credenciales de REDCap
 
-2. Instalar dependencias:
+3. Instalar dependencias:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Ejecutar:
+4. Ejecutar:
 
 ```bash
 python obtener_metadata.py
 ```
 
-4. Abrir:
+5. Abrir:
 
 ```
 web/index.html
