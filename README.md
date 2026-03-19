@@ -42,7 +42,6 @@ Ejemplo de archivo `.env`:
 REDCAP_API_URL=https://tu-redcap.com/api/
 REDCAP_API_TOKEN=123ABC...
 ```
-> ⚠️ **Nunca subas el `.env` al repositorio.**
 
 En tu `main.py` puedes acceder a ellas mediante:
 ```python
